@@ -127,9 +127,7 @@ db.sensor_readings.find({
   reading: { $gt: 70 }
 })
 ```
-MongoDB:
-
-Efficiently reads only relevant buckets
+MongoDB Efficiently reads only relevant buckets
 Uses the timeField index (automatically created)
 Compresses older buckets for storage efficiency
 
